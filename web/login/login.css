@@ -1,0 +1,69 @@
+
+body{
+	background-color:#efeee8;
+}
+
+.sidebar {
+	position:fixed;
+	top:0;
+	left:0;
+	padding:30px;
+	height:100%;
+	background-color:#fff;
+
+}
+
+.title{
+	
+	font-weight:700;
+	font-size:50px;
+	font-family:'Oswald',sans-serif;
+	text-align:center;
+}
+
+.form-control {
+	
+	width:290px;
+	padding:15px;
+	color:#1a1a1a;
+	border:1px solid #ccc;
+	border-radius:3px;
+}
+
+.form-group {
+	margin-bottom:10px;
+}
+
+.login-form {
+	
+	display:table;
+	margin:auto;
+}
+
+.form-control:focus {
+	border:1px solid #3557ff;
+}
+
+.btn{
+	background-color:#3557ff;
+	color:#fff;
+	cursor:pointer;
+	font-weight:700;
+	font-size:16px;
+	font-family:'Oswald',sans-serif;
+	width:150px;
+	height:50px;
+	border:none;
+	border-radius:3px;
+	
+}
+
+.btn-left {
+	
+	float:left;
+}
+
+.ml-3 {
+	
+	margin-left:10px;
+}
